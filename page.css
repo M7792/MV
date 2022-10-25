@@ -1,0 +1,50 @@
+body {
+  margin: 15px;
+}
+
+.header {
+  background-color: greenyellow;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+.side1 {
+  background-color: pink;
+  width: 25%;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-top: 50px;
+  
+}
+
+.main {
+  background-color: aqua;
+  width: 50%;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+
+.side2 {
+  background-color: yellow;
+  width: 25%;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+
+.columns {
+  display: flex;
+  height: 400px;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: rgb(55, 55, 193);
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 50px;
+}

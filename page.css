@@ -12,7 +12,7 @@ body {
 }
 .side1 {
   background-color: pink;
-  width: 25%;
+  flex-grow: 1;
   margin-right: 20px;
   padding-left: 10px;
   padding-top: 50px;
@@ -21,7 +21,7 @@ body {
 
 .main {
   background-color: aqua;
-  width: 50%;
+  flex-grow: 2;
   margin-right: 20px;
   padding-left: 10px;
   padding-top: 50px;
@@ -29,15 +29,15 @@ body {
 
 .side2 {
   background-color: yellow;
-  width: 25%;
+  flex-grow: 1;
   padding-left: 10px;
   padding-top: 50px;
 }
 
 .columns {
   display: flex;
-  height: 400px;
-  justify-content: space-between;
+  height: 450px;
+
 }
 
 .footer {

@@ -36,7 +36,8 @@ body {
 
 .columns {
   display: flex;
-  height: 450px;
+  flex-direction: row;
+  min-height: 100vh;
 
 }
 
